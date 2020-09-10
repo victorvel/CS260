@@ -1,0 +1,28 @@
+body {
+    margin: 0px; 
+    padding: 0px; 
+}
+header ul {
+    list-style-type: none; 
+    display: flex; 
+    justify-content: space-around; 
+    background-color: darkblue;
+    color: white; 
+}
+header ul li {
+    padding: 20px 0px; 
+}
+#home-page {
+    background-color: lightblue; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    max-width: 100%; 
+    height: 500px;
+    margin-top: -16px; 
+}
+.full-body {
+    line-height: 2; 
+    padding: 20px;
+
+}
