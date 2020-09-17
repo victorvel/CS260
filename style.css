@@ -1,5 +1,5 @@
 body {
-    margin: 0px; 
+    margin: -20px 0px; 
     padding: 0px; 
 }
 header ul {
@@ -25,4 +25,25 @@ header ul li {
     line-height: 2; 
     padding: 20px;
 
+}
+.flex-box {
+    display: flex; 
+    justify-content: space-around; 
+    margin-top: 20px;
+}
+.flex-box div {
+    max-width: 300px; 
+    background-color: #90ee90; 
+    color: white;
+    font-weight: bold; 
+    width: 150px; 
+    text-align: center;
+    padding: 60px;
+    margin: 20px; 
+}
+@media (max-width: 1200px) {
+    .flex-box {
+        flex-direction: column; 
+        align-items: center; 
+    }
 }
