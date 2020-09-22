@@ -1,49 +1,31 @@
 body {
-    margin: -20px 0px; 
+    margin: 0px; 
     padding: 0px; 
+    font-size: 18px;
 }
-header ul {
-    list-style-type: none; 
+header {
     display: flex; 
-    justify-content: space-around; 
-    background-color: darkblue;
+    justify-content: space-around;
+    color: white;
+    background-color: #3F33FF;
+}
+header a {
+    padding: 30px 0;
+    color: white;
+    text-decoration: none;
+}
+.hero-img {
+    background-image: linear-gradient(to right, rgba(0,0,0,.3) 10%, rgba(0,0,0,.3) 10%), url("pexels-pixabay-270348.jpg"); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: right; 
+    height: 770px; 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     color: white; 
 }
-header ul li {
-    padding: 20px 0px; 
-}
-#home-page {
-    background-color: lightblue; 
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    max-width: 100%; 
-    height: 500px;
-    margin-top: -16px; 
-}
-.full-body {
-    line-height: 2; 
-    padding: 20px;
-
-}
-.flex-box {
-    display: flex; 
-    justify-content: space-around; 
-    margin-top: 20px;
-}
-.flex-box div {
-    max-width: 300px; 
-    background-color: #90ee90; 
-    color: white;
-    font-weight: bold; 
-    width: 150px; 
-    text-align: center;
-    padding: 60px;
-    margin: 20px; 
-}
-@media (max-width: 1200px) {
-    .flex-box {
-        flex-direction: column; 
-        align-items: center; 
-    }
+.hero-img div {
+    margin: 30px; 
+    text-align: right;
 }
